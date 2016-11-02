@@ -41,4 +41,9 @@ public class UserController {
 		
 		return list;
 	}
+	
+	
+	public void printLine(){
+		
+	}
 }
