@@ -7,4 +7,5 @@ import com.lee.test.entity.User;
 
 public interface UserService {
 	public List<User> selectUser(Map<String,Object> map);
+	
 }
