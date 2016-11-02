@@ -43,7 +43,7 @@ public class UserController {
 	}
 	
 	
-	public void prsasdintLine(){
+	public void prsasdintLine1(){
 		
 	}
 }
