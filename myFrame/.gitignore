@@ -1,0 +1,17 @@
+# ignore Maven generated target floders
+target
+
+*.class
+
+*.jar
+*.war
+*.ear
+
+# ignore eclipse files
+.project
+.classpath
+.settings
+.metadata
+
+RemoteSystemTempFiles/
+
