@@ -27,8 +27,26 @@
   		<artifactId>spring-webmvc</artifactId>
   		<version>4.0.5.RELEASE</version>
   	</dependency>
+  	<!-- 依赖servlet ,导入servlet所需要的jar包    如果不导入，则jsp文件总是会提示错误-->
+  	<dependency>
+  		<groupId>javax.servlet</groupId>
+  		<artifactId>javax.servlet-api</artifactId>
+  		<version>3.0.1</version>
+  	</dependency>
   </dependencies>
-  <build>
-    <finalName>myFrame</finalName>
-  </build>
+
+<build>
+    <plugins>
+        <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.1</version>
+        <configuration>
+            <source>1.7</source>
+            <target>1.7</target>
+        </configuration>
+    </plugin>
+    </plugins>
+</build>
+
 </project>
