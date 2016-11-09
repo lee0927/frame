@@ -3,7 +3,7 @@
 <head>
 <title>测试页面</title>
 
-<script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
 
 <script type="text/javascript">
 	function login(){
