@@ -1,26 +1,26 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>测试页面</title>
 
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 
-<script>
+<script type="text/javascript">
 	function login(){
-		$.ajax({
-			url:"${pageContext.request.contextPath}/user/login.do",
-			data:{},
-			dataType:"json",
-			success:function(data){
-				alert("success");
-			},
-			error:function(){
-				alert("error");
-			}
-		});
+		window.location="${pageContext.request.contextPath}/user/login.do";
+//		$.ajax({
+//			url:"${pageContext.request.contextPath}/user/login.do",
+//			data:{},
+//			dataType:"text",
+//			type:"post", 
+//			success:function(data){
+//				//alert("success");
+//				
+//			},
+//			error:function(){
+//				//alert("error");
+//			}
+//		});
 	}
 </script>
 </head>

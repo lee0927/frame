@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("user")
 public class UserController {
 	
-	@RequestMapping("/login")
+	@RequestMapping("/login.do")
 	public String saveUser(){
 		System.out.println("登陆页面传递过来的信息！！");
 		return "onLogin"; 
