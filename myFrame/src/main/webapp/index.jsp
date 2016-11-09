@@ -6,12 +6,12 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>测试页面</title>
 
-<script type="text/javascript" src="static/js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 
 <script>
 	function login(){
 		$.ajax({
-			url:"/user/login.do",
+			url:"${pageContext.request.contextPath}/user/login.do",
 			data:{},
 			dataType:"json",
 			success:function(data){

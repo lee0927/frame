@@ -5,6 +5,7 @@
   <artifactId>myFrame</artifactId>
   <packaging>war</packaging>
   <version>0.0.1-SNAPSHOT</version>
+  <name>myFrame</name>
   
   <dependencies>
   	<!-- spring 必须的jar 
@@ -42,8 +43,8 @@
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.1</version>
         <configuration>
-            <source>1.7</source>
-            <target>1.7</target>
+            <source>1.8</source>
+            <target>1.8</target>
         </configuration>
     </plugin>
     </plugins>
