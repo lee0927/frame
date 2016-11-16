@@ -21,7 +21,7 @@ public class UserControllerTest {
 	 */
 	@Test
 	public void testH2DB(){
-		final String JDBC_URL="jdbc:h2:~/test";
+		final String JDBC_URL="jdbc:h2:test";
 		final String USER="sa";
 		final String password="";
 		final String DRIVER_CLASS="org.h2.Driver";
