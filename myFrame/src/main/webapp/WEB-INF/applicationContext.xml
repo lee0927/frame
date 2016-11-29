@@ -27,7 +27,55 @@
         http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.0.xsd
         http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-4.0.xsd"
         >
-	<!-- 
-	<context:component-scan base-package=""/>
- -->
+
+	<!-- 扫描DAO -->
+ 	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+ 		<property name="basePackage" value="com.lee.demo.dao"/>
+ 	</bean>
+ 	
+ 	<!-- mybatis根据不同的数据库名来进行sql语句切换。具体的做法是初始化SqlSessionFactoryBean的时候，配置一个databaseIdProvider -->
+<!--  	<bean id="vendorProperties" class="org.springframework.beans.factory.config.PropertiesFactoryBean"> -->
+<!--  		<property name="properties"> -->
+<!--  			<props> -->
+<!--  				<prop key="MySql">mysql</prop> -->
+<!--  				<prop key="H2">h2</prop> -->
+<!--  			</props> -->
+<!--  		</property> -->
+<!--  	</bean> -->
+<!--  	<bean id="databaseIdProvider" class="org.apache.ibatis.mapping.VendorDatabaseIdProvider"> -->
+<!--  		<property name="properties" ref="vendorProperties"/> -->
+<!--  	</bean> -->
+ 	<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+ 		<property name="dataSource" ref="dataSource" />
+<!--  		<property name="databaseIdProvider" ref="databaseIdProvider"/> -->
+ 		<property name="mapperLocations" value="classpath*:/src/com/lee/demo/mapper/*.xml" />
+ 	</bean>
+ 	
+ 	<!-- 根据不同的环境读取不同的配置 -->
+<!--  	<beans profile="development"> -->
+<!--  	 	<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close"> -->
+<!--  			<property name="driverClassName" value="com.mysql.jdbc.Driver"/> -->
+<!--  			<property name="url" value="jdbc:mysql://127.0.0.1:3306/WebMagic?characterEncoding=UTF-8"/> -->
+<!--  			<property name="username" value=""/> -->
+<!--  			<property name="password" value=""/> -->
+<!--  		</bean> -->
+<!--  		<jdbc:initialize-database data-source="dataSource" ignore-failures="ALL"> -->
+<!--  			<jdbc:script location="classpath:sql/h2/schema.sql"/> -->
+<!--  		</jdbc:initialize-database> -->
+<!--  	</beans> -->
+ 	
+ 	<beans profile="test">
+        <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource"
+              destroy-method="close">
+            <property name="driverClassName" value="org.h2.Driver"/>
+            <property name="url" value="jdbc:h2:test;AUTO_SERVER=TRUE"/>
+ 			<property name="username" value="sa"/>
+ 			<property name="password" value=""/>
+        </bean>
+        <!--Refer to https://github.com/springside/springside4/wiki/H2-Database -->
+        <jdbc:initialize-database data-source="dataSource" ignore-failures="ALL">
+            <jdbc:script location="classpath:sql/h2/schema.sql" />
+            <!--<jdbc:script location="classpath:data/h2/import-data.sql" encoding="UTF-8"/>-->
+        </jdbc:initialize-database>
+    </beans>
 </beans>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapper namespace="us.codecraft.webmagic.dao.DynamicClassDao">
+    <insert id="add" parameterType="us.codecraft.webmagic.model.DynamicClass"  databaseId="mysql">
+      insert into DynamicClass (`ClassName`,`SourceCode`,`AddTime`,`UpdateTime`)
+      values (#{className},#{sourceCode},now(),now())
+    </insert>
+    <insert id="add" parameterType="us.codecraft.webmagic.model.DynamicClass"  databaseId="h2">
+      insert into DynamicClass (`ClassName`,`SourceCode`,`AddTime`,`UpdateTime`)
+      values (#{className},#{sourceCode},now(),now())
+    </insert>
+</mapper>
