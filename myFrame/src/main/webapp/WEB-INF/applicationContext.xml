@@ -27,6 +27,11 @@
         http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.0.xsd
         http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-4.0.xsd"
         >
+	<context:annotation-config/>
+	<context:component-scan base-package="com.lee.demo" use-default-filters="false">
+		<context:include-filter type="regex" expression="com.lee.demo.dao.*"/>
+		<context:include-filter type="regex" expression="com.lee.demo.service.*"/>
+	</context:component-scan>
 
 	<!-- 扫描DAO -->
  	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
@@ -51,6 +56,11 @@
  		<property name="mapperLocations" value="classpath*:/src/com/lee/demo/mapper/*.xml" />
  	</bean>
  	
+ 	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+ 		<property name="basePackage" value="com.lee.demo.dao"/>
+ 		<property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
+ 	</bean>
+ 	
  	<!-- 根据不同的环境读取不同的配置 -->
 <!--  	<beans profile="development"> -->
 <!--  	 	<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close"> -->
@@ -68,7 +78,7 @@
         <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource"
               destroy-method="close">
             <property name="driverClassName" value="org.h2.Driver"/>
-            <property name="url" value="jdbc:h2:test;AUTO_SERVER=TRUE"/>
+            <property name="url" value="jdbc:h2:D:\mygit\frame\myFrame\db\test;AUTO_SERVER=TRUE"/>
  			<property name="username" value="sa"/>
  			<property name="password" value=""/>
         </bean>

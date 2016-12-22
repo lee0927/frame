@@ -1,0 +1,408 @@
+12-22 14:58:55 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP DATABASE[*] IF EXISTS USER_INFO "; expected "TABLE, INDEX, USER, SEQUENCE, CONSTANT, TRIGGER, VIEW, ROLE, ALIAS, SCHEMA, ALL, DOMAIN, TYPE, DATATYPE, AGGREGATE"; SQL statement:
+drop database if EXISTS USER_INFO [42001-176]
+12-22 14:58:55 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "CREATE DATABASE[*] USER_INFO "; expected "OR, FORCE, VIEW, ALIAS, SEQUENCE, USER, TRIGGER, ROLE, SCHEMA, CONSTANT, DOMAIN, TYPE, DATATYPE, AGGREGATE, LINKED, MEMORY, CACHED, LOCAL, GLOBAL, TEMP, TEMPORARY, TABLE, PRIMARY, UNIQUE, HASH, SPATIAL, INDEX"; SQL statement:
+create database USER_INFO [42001-176]
+12-22 14:58:55 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "USE[*] USER_INFO "; expected "UPDATE, {"; SQL statement:
+use USER_INFO [42001-176]
+12-22 14:58:55 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO USER_INFO VALUES('1','澶ф棩濡傛潵','鐢�);
+INSERT INTO USER_INFO VALUES('2[*]','闈掗緳','鐢�)"; expected "[, ::, *, /, %, +, -, ||, ~, !~, NOT, LIKE, REGEXP, IS, IN, BETWEEN, AND, OR, ,, )"; SQL statement:
+INSERT INTO USER_INFO VALUES('1','澶ф棩濡傛潵','鐢�);
+INSERT INTO USER_INFO VALUES('2','闈掗緳','鐢�) [42001-176]
+12-22 14:58:55 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO USER_INFO VALUES('3','鐧借檸','鐢�);
+INSERT INTO USER_INFO VALUES('4[*]','鏈遍泙','濂�)"; expected "[, ::, *, /, %, +, -, ||, ~, !~, NOT, LIKE, REGEXP, IS, IN, BETWEEN, AND, OR, ,, )"; SQL statement:
+INSERT INTO USER_INFO VALUES('3','鐧借檸','鐢�);
+INSERT INTO USER_INFO VALUES('4','鏈遍泙','濂�) [42001-176]
+12-22 14:58:55 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO USER_INFO VALUES('5','鐜勬','鐢�);
+INSERT INTO USER_INFO VALUES('6[*]','鑻嶇嫾','鐢�)"; expected "[, ::, *, /, %, +, -, ||, ~, !~, NOT, LIKE, REGEXP, IS, IN, BETWEEN, AND, OR, ,, )"; SQL statement:
+INSERT INTO USER_INFO VALUES('5','鐜勬','鐢�);
+INSERT INTO USER_INFO VALUES('6','鑻嶇嫾','鐢�) [42001-176]
+12-22 16:32:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP DATABASE[*] IF EXISTS USER_INFO "; expected "TABLE, INDEX, USER, SEQUENCE, CONSTANT, TRIGGER, VIEW, ROLE, ALIAS, SCHEMA, ALL, DOMAIN, TYPE, DATATYPE, AGGREGATE"; SQL statement:
+drop database if EXISTS USER_INFO [42001-176]
+12-22 16:32:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "CREATE DATABASE[*] USER_INFO "; expected "OR, FORCE, VIEW, ALIAS, SEQUENCE, USER, TRIGGER, ROLE, SCHEMA, CONSTANT, DOMAIN, TYPE, DATATYPE, AGGREGATE, LINKED, MEMORY, CACHED, LOCAL, GLOBAL, TEMP, TEMPORARY, TABLE, PRIMARY, UNIQUE, HASH, SPATIAL, INDEX"; SQL statement:
+create database USER_INFO [42001-176]
+12-22 16:32:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "USE[*] USER_INFO "; expected "UPDATE, {"; SQL statement:
+use USER_INFO [42001-176]
+12-22 16:32:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO USER_INFO VALUES('1','澶ф棩濡傛潵','鐢�);
+INSERT INTO USER_INFO VALUES('2[*]','闈掗緳','鐢�)"; expected "[, ::, *, /, %, +, -, ||, ~, !~, NOT, LIKE, REGEXP, IS, IN, BETWEEN, AND, OR, ,, )"; SQL statement:
+INSERT INTO USER_INFO VALUES('1','澶ф棩濡傛潵','鐢�);
+INSERT INTO USER_INFO VALUES('2','闈掗緳','鐢�) [42001-176]
+12-22 16:32:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO USER_INFO VALUES('3','鐧借檸','鐢�);
+INSERT INTO USER_INFO VALUES('4[*]','鏈遍泙','濂�)"; expected "[, ::, *, /, %, +, -, ||, ~, !~, NOT, LIKE, REGEXP, IS, IN, BETWEEN, AND, OR, ,, )"; SQL statement:
+INSERT INTO USER_INFO VALUES('3','鐧借檸','鐢�);
+INSERT INTO USER_INFO VALUES('4','鏈遍泙','濂�) [42001-176]
+12-22 16:32:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO USER_INFO VALUES('5','鐜勬','鐢�);
+INSERT INTO USER_INFO VALUES('6[*]','鑻嶇嫾','鐢�)"; expected "[, ::, *, /, %, +, -, ||, ~, !~, NOT, LIKE, REGEXP, IS, IN, BETWEEN, AND, OR, ,, )"; SQL statement:
+INSERT INTO USER_INFO VALUES('5','鐜勬','鐢�);
+INSERT INTO USER_INFO VALUES('6','鑻嶇嫾','鐢�) [42001-176]
+12-22 16:34:13 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP DATABASE[*] IF EXISTS USER_INFO "; expected "TABLE, INDEX, USER, SEQUENCE, CONSTANT, TRIGGER, VIEW, ROLE, ALIAS, SCHEMA, ALL, DOMAIN, TYPE, DATATYPE, AGGREGATE"; SQL statement:
+drop database if EXISTS USER_INFO [42001-176]
+12-22 16:34:13 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "CREATE DATABASE[*] USER_INFO "; expected "OR, FORCE, VIEW, ALIAS, SEQUENCE, USER, TRIGGER, ROLE, SCHEMA, CONSTANT, DOMAIN, TYPE, DATATYPE, AGGREGATE, LINKED, MEMORY, CACHED, LOCAL, GLOBAL, TEMP, TEMPORARY, TABLE, PRIMARY, UNIQUE, HASH, SPATIAL, INDEX"; SQL statement:
+create database USER_INFO [42001-176]
+12-22 16:34:13 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "USE[*] USER_INFO "; expected "UPDATE, {"; SQL statement:
+use USER_INFO [42001-176]
+12-22 16:34:13 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO USER_INFO VALUES('1','澶ф棩濡傛潵','鐢�);
+INSERT INTO USER_INFO VALUES('2[*]','闈掗緳','鐢�)"; expected "[, ::, *, /, %, +, -, ||, ~, !~, NOT, LIKE, REGEXP, IS, IN, BETWEEN, AND, OR, ,, )"; SQL statement:
+INSERT INTO USER_INFO VALUES('1','澶ф棩濡傛潵','鐢�);
+INSERT INTO USER_INFO VALUES('2','闈掗緳','鐢�) [42001-176]
+12-22 16:34:13 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO USER_INFO VALUES('3','鐧借檸','鐢�);
+INSERT INTO USER_INFO VALUES('4[*]','鏈遍泙','濂�)"; expected "[, ::, *, /, %, +, -, ||, ~, !~, NOT, LIKE, REGEXP, IS, IN, BETWEEN, AND, OR, ,, )"; SQL statement:
+INSERT INTO USER_INFO VALUES('3','鐧借檸','鐢�);
+INSERT INTO USER_INFO VALUES('4','鏈遍泙','濂�) [42001-176]
+12-22 16:34:13 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO USER_INFO VALUES('5','鐜勬','鐢�);
+INSERT INTO USER_INFO VALUES('6[*]','鑻嶇嫾','鐢�)"; expected "[, ::, *, /, %, +, -, ||, ~, !~, NOT, LIKE, REGEXP, IS, IN, BETWEEN, AND, OR, ,, )"; SQL statement:
+INSERT INTO USER_INFO VALUES('5','鐜勬','鐢�);
+INSERT INTO USER_INFO VALUES('6','鑻嶇嫾','鐢�) [42001-176]
+12-22 16:35:49 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP DATABASE[*] IF EXISTS USER_INFO "; expected "TABLE, INDEX, USER, SEQUENCE, CONSTANT, TRIGGER, VIEW, ROLE, ALIAS, SCHEMA, ALL, DOMAIN, TYPE, DATATYPE, AGGREGATE"; SQL statement:
+drop database if EXISTS USER_INFO [42001-176]
+12-22 16:35:49 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "CREATE DATABASE[*] USER_INFO "; expected "OR, FORCE, VIEW, ALIAS, SEQUENCE, USER, TRIGGER, ROLE, SCHEMA, CONSTANT, DOMAIN, TYPE, DATATYPE, AGGREGATE, LINKED, MEMORY, CACHED, LOCAL, GLOBAL, TEMP, TEMPORARY, TABLE, PRIMARY, UNIQUE, HASH, SPATIAL, INDEX"; SQL statement:
+create database USER_INFO [42001-176]
+12-22 16:35:49 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "USE[*] USER_INFO "; expected "UPDATE, {"; SQL statement:
+use USER_INFO [42001-176]
+12-22 16:35:49 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO USER_INFO VALUES('1','澶ф棩濡傛潵','鐢�);
+INSERT INTO USER_INFO VALUES('2[*]','闈掗緳','鐢�)"; expected "[, ::, *, /, %, +, -, ||, ~, !~, NOT, LIKE, REGEXP, IS, IN, BETWEEN, AND, OR, ,, )"; SQL statement:
+INSERT INTO USER_INFO VALUES('1','澶ф棩濡傛潵','鐢�);
+INSERT INTO USER_INFO VALUES('2','闈掗緳','鐢�) [42001-176]
+12-22 16:35:49 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO USER_INFO VALUES('3','鐧借檸','鐢�);
+INSERT INTO USER_INFO VALUES('4[*]','鏈遍泙','濂�)"; expected "[, ::, *, /, %, +, -, ||, ~, !~, NOT, LIKE, REGEXP, IS, IN, BETWEEN, AND, OR, ,, )"; SQL statement:
+INSERT INTO USER_INFO VALUES('3','鐧借檸','鐢�);
+INSERT INTO USER_INFO VALUES('4','鏈遍泙','濂�) [42001-176]
+12-22 16:35:49 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO USER_INFO VALUES('5','鐜勬','鐢�);
+INSERT INTO USER_INFO VALUES('6[*]','鑻嶇嫾','鐢�)"; expected "[, ::, *, /, %, +, -, ||, ~, !~, NOT, LIKE, REGEXP, IS, IN, BETWEEN, AND, OR, ,, )"; SQL statement:
+INSERT INTO USER_INFO VALUES('5','鐜勬','鐢�);
+INSERT INTO USER_INFO VALUES('6','鑻嶇嫾','鐢�) [42001-176]
+12-22 16:56:51 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP DATABASE[*] IF EXISTS USER_INFO "; expected "TABLE, INDEX, USER, SEQUENCE, CONSTANT, TRIGGER, VIEW, ROLE, ALIAS, SCHEMA, ALL, DOMAIN, TYPE, DATATYPE, AGGREGATE"; SQL statement:
+drop database if EXISTS USER_INFO [42001-176]
+12-22 16:56:51 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "CREATE DATABASE[*] USER_INFO "; expected "OR, FORCE, VIEW, ALIAS, SEQUENCE, USER, TRIGGER, ROLE, SCHEMA, CONSTANT, DOMAIN, TYPE, DATATYPE, AGGREGATE, LINKED, MEMORY, CACHED, LOCAL, GLOBAL, TEMP, TEMPORARY, TABLE, PRIMARY, UNIQUE, HASH, SPATIAL, INDEX"; SQL statement:
+create database USER_INFO [42001-176]
+12-22 16:56:51 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "USE[*] USER_INFO "; expected "UPDATE, {"; SQL statement:
+use USER_INFO [42001-176]
+12-22 16:56:51 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO USER_INFO VALUES('1','澶ф棩濡傛潵','鐢�);
+INSERT INTO USER_INFO VALUES('2[*]','闈掗緳','鐢�)"; expected "[, ::, *, /, %, +, -, ||, ~, !~, NOT, LIKE, REGEXP, IS, IN, BETWEEN, AND, OR, ,, )"; SQL statement:
+INSERT INTO USER_INFO VALUES('1','澶ф棩濡傛潵','鐢�);
+INSERT INTO USER_INFO VALUES('2','闈掗緳','鐢�) [42001-176]
+12-22 16:56:51 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO USER_INFO VALUES('3','鐧借檸','鐢�);
+INSERT INTO USER_INFO VALUES('4[*]','鏈遍泙','濂�)"; expected "[, ::, *, /, %, +, -, ||, ~, !~, NOT, LIKE, REGEXP, IS, IN, BETWEEN, AND, OR, ,, )"; SQL statement:
+INSERT INTO USER_INFO VALUES('3','鐧借檸','鐢�);
+INSERT INTO USER_INFO VALUES('4','鏈遍泙','濂�) [42001-176]
+12-22 16:56:51 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO USER_INFO VALUES('5','鐜勬','鐢�);
+INSERT INTO USER_INFO VALUES('6[*]','鑻嶇嫾','鐢�)"; expected "[, ::, *, /, %, +, -, ||, ~, !~, NOT, LIKE, REGEXP, IS, IN, BETWEEN, AND, OR, ,, )"; SQL statement:
+INSERT INTO USER_INFO VALUES('5','鐜勬','鐢�);
+INSERT INTO USER_INFO VALUES('6','鑻嶇嫾','鐢�) [42001-176]
+12-22 16:57:25 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP DATABASE[*] IF EXISTS USER_INFO "; expected "TABLE, INDEX, USER, SEQUENCE, CONSTANT, TRIGGER, VIEW, ROLE, ALIAS, SCHEMA, ALL, DOMAIN, TYPE, DATATYPE, AGGREGATE"; SQL statement:
+drop database if EXISTS USER_INFO [42001-176]
+12-22 16:57:25 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "CREATE DATABASE[*] USER_INFO "; expected "OR, FORCE, VIEW, ALIAS, SEQUENCE, USER, TRIGGER, ROLE, SCHEMA, CONSTANT, DOMAIN, TYPE, DATATYPE, AGGREGATE, LINKED, MEMORY, CACHED, LOCAL, GLOBAL, TEMP, TEMPORARY, TABLE, PRIMARY, UNIQUE, HASH, SPATIAL, INDEX"; SQL statement:
+create database USER_INFO [42001-176]
+12-22 16:57:25 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "USE[*] USER_INFO "; expected "UPDATE, {"; SQL statement:
+use USER_INFO [42001-176]
+12-22 16:57:25 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO USER_INFO VALUES('1','澶ф棩濡傛潵','鐢�);
+INSERT INTO USER_INFO VALUES('2[*]','闈掗緳','鐢�)"; expected "[, ::, *, /, %, +, -, ||, ~, !~, NOT, LIKE, REGEXP, IS, IN, BETWEEN, AND, OR, ,, )"; SQL statement:
+INSERT INTO USER_INFO VALUES('1','澶ф棩濡傛潵','鐢�);
+INSERT INTO USER_INFO VALUES('2','闈掗緳','鐢�) [42001-176]
+12-22 16:57:25 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO USER_INFO VALUES('3','鐧借檸','鐢�);
+INSERT INTO USER_INFO VALUES('4[*]','鏈遍泙','濂�)"; expected "[, ::, *, /, %, +, -, ||, ~, !~, NOT, LIKE, REGEXP, IS, IN, BETWEEN, AND, OR, ,, )"; SQL statement:
+INSERT INTO USER_INFO VALUES('3','鐧借檸','鐢�);
+INSERT INTO USER_INFO VALUES('4','鏈遍泙','濂�) [42001-176]
+12-22 16:57:25 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO USER_INFO VALUES('5','鐜勬','鐢�);
+INSERT INTO USER_INFO VALUES('6[*]','鑻嶇嫾','鐢�)"; expected "[, ::, *, /, %, +, -, ||, ~, !~, NOT, LIKE, REGEXP, IS, IN, BETWEEN, AND, OR, ,, )"; SQL statement:
+INSERT INTO USER_INFO VALUES('5','鐜勬','鐢�);
+INSERT INTO USER_INFO VALUES('6','鑻嶇嫾','鐢�) [42001-176]
+12-22 16:58:18 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP DATABASE[*] IF EXISTS USER_INFO "; expected "TABLE, INDEX, USER, SEQUENCE, CONSTANT, TRIGGER, VIEW, ROLE, ALIAS, SCHEMA, ALL, DOMAIN, TYPE, DATATYPE, AGGREGATE"; SQL statement:
+drop database if EXISTS USER_INFO [42001-176]
+12-22 16:58:18 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "CREATE DATABASE[*] USER_INFO "; expected "OR, FORCE, VIEW, ALIAS, SEQUENCE, USER, TRIGGER, ROLE, SCHEMA, CONSTANT, DOMAIN, TYPE, DATATYPE, AGGREGATE, LINKED, MEMORY, CACHED, LOCAL, GLOBAL, TEMP, TEMPORARY, TABLE, PRIMARY, UNIQUE, HASH, SPATIAL, INDEX"; SQL statement:
+create database USER_INFO [42001-176]
+12-22 16:58:18 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "USE[*] USER_INFO "; expected "UPDATE, {"; SQL statement:
+use USER_INFO [42001-176]
+12-22 16:58:18 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO USER_INFO VALUES('1','澶ф棩濡傛潵','鐢�);
+INSERT INTO USER_INFO VALUES('2[*]','闈掗緳','鐢�)"; expected "[, ::, *, /, %, +, -, ||, ~, !~, NOT, LIKE, REGEXP, IS, IN, BETWEEN, AND, OR, ,, )"; SQL statement:
+INSERT INTO USER_INFO VALUES('1','澶ф棩濡傛潵','鐢�);
+INSERT INTO USER_INFO VALUES('2','闈掗緳','鐢�) [42001-176]
+12-22 16:58:18 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO USER_INFO VALUES('3','鐧借檸','鐢�);
+INSERT INTO USER_INFO VALUES('4[*]','鏈遍泙','濂�)"; expected "[, ::, *, /, %, +, -, ||, ~, !~, NOT, LIKE, REGEXP, IS, IN, BETWEEN, AND, OR, ,, )"; SQL statement:
+INSERT INTO USER_INFO VALUES('3','鐧借檸','鐢�);
+INSERT INTO USER_INFO VALUES('4','鏈遍泙','濂�) [42001-176]
+12-22 16:58:18 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO USER_INFO VALUES('5','鐜勬','鐢�);
+INSERT INTO USER_INFO VALUES('6[*]','鑻嶇嫾','鐢�)"; expected "[, ::, *, /, %, +, -, ||, ~, !~, NOT, LIKE, REGEXP, IS, IN, BETWEEN, AND, OR, ,, )"; SQL statement:
+INSERT INTO USER_INFO VALUES('5','鐜勬','鐢�);
+INSERT INTO USER_INFO VALUES('6','鑻嶇嫾','鐢�) [42001-176]
+12-22 17:02:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP DATABASE[*] IF EXISTS USER_INFO "; expected "TABLE, INDEX, USER, SEQUENCE, CONSTANT, TRIGGER, VIEW, ROLE, ALIAS, SCHEMA, ALL, DOMAIN, TYPE, DATATYPE, AGGREGATE"; SQL statement:
+drop database if EXISTS USER_INFO [42001-176]
+12-22 17:02:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "CREATE DATABASE[*] USER_INFO "; expected "OR, FORCE, VIEW, ALIAS, SEQUENCE, USER, TRIGGER, ROLE, SCHEMA, CONSTANT, DOMAIN, TYPE, DATATYPE, AGGREGATE, LINKED, MEMORY, CACHED, LOCAL, GLOBAL, TEMP, TEMPORARY, TABLE, PRIMARY, UNIQUE, HASH, SPATIAL, INDEX"; SQL statement:
+create database USER_INFO [42001-176]
+12-22 17:02:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "USE[*] USER_INFO "; expected "UPDATE, {"; SQL statement:
+use USER_INFO [42001-176]
+12-22 17:02:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO USER_INFO VALUES('1','澶ф棩濡傛潵','鐢�);
+INSERT INTO USER_INFO VALUES('2[*]','闈掗緳','鐢�)"; expected "[, ::, *, /, %, +, -, ||, ~, !~, NOT, LIKE, REGEXP, IS, IN, BETWEEN, AND, OR, ,, )"; SQL statement:
+INSERT INTO USER_INFO VALUES('1','澶ф棩濡傛潵','鐢�);
+INSERT INTO USER_INFO VALUES('2','闈掗緳','鐢�) [42001-176]
+12-22 17:02:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO USER_INFO VALUES('3','鐧借檸','鐢�);
+INSERT INTO USER_INFO VALUES('4[*]','鏈遍泙','濂�)"; expected "[, ::, *, /, %, +, -, ||, ~, !~, NOT, LIKE, REGEXP, IS, IN, BETWEEN, AND, OR, ,, )"; SQL statement:
+INSERT INTO USER_INFO VALUES('3','鐧借檸','鐢�);
+INSERT INTO USER_INFO VALUES('4','鏈遍泙','濂�) [42001-176]
+12-22 17:02:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO USER_INFO VALUES('5','鐜勬','鐢�);
+INSERT INTO USER_INFO VALUES('6[*]','鑻嶇嫾','鐢�)"; expected "[, ::, *, /, %, +, -, ||, ~, !~, NOT, LIKE, REGEXP, IS, IN, BETWEEN, AND, OR, ,, )"; SQL statement:
+INSERT INTO USER_INFO VALUES('5','鐜勬','鐢�);
+INSERT INTO USER_INFO VALUES('6','鑻嶇嫾','鐢�) [42001-176]
+12-22 17:03:11 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP DATABASE[*] IF EXISTS USER_INFO "; expected "TABLE, INDEX, USER, SEQUENCE, CONSTANT, TRIGGER, VIEW, ROLE, ALIAS, SCHEMA, ALL, DOMAIN, TYPE, DATATYPE, AGGREGATE"; SQL statement:
+drop database if EXISTS USER_INFO [42001-176]
+12-22 17:03:11 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "CREATE DATABASE[*] USER_INFO "; expected "OR, FORCE, VIEW, ALIAS, SEQUENCE, USER, TRIGGER, ROLE, SCHEMA, CONSTANT, DOMAIN, TYPE, DATATYPE, AGGREGATE, LINKED, MEMORY, CACHED, LOCAL, GLOBAL, TEMP, TEMPORARY, TABLE, PRIMARY, UNIQUE, HASH, SPATIAL, INDEX"; SQL statement:
+create database USER_INFO [42001-176]
+12-22 17:03:11 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "USE[*] USER_INFO "; expected "UPDATE, {"; SQL statement:
+use USER_INFO [42001-176]
+12-22 17:03:11 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO USER_INFO VALUES('1','澶ф棩濡傛潵','鐢�);
+INSERT INTO USER_INFO VALUES('2[*]','闈掗緳','鐢�)"; expected "[, ::, *, /, %, +, -, ||, ~, !~, NOT, LIKE, REGEXP, IS, IN, BETWEEN, AND, OR, ,, )"; SQL statement:
+INSERT INTO USER_INFO VALUES('1','澶ф棩濡傛潵','鐢�);
+INSERT INTO USER_INFO VALUES('2','闈掗緳','鐢�) [42001-176]
+12-22 17:03:11 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO USER_INFO VALUES('3','鐧借檸','鐢�);
+INSERT INTO USER_INFO VALUES('4[*]','鏈遍泙','濂�)"; expected "[, ::, *, /, %, +, -, ||, ~, !~, NOT, LIKE, REGEXP, IS, IN, BETWEEN, AND, OR, ,, )"; SQL statement:
+INSERT INTO USER_INFO VALUES('3','鐧借檸','鐢�);
+INSERT INTO USER_INFO VALUES('4','鏈遍泙','濂�) [42001-176]
+12-22 17:03:11 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO USER_INFO VALUES('5','鐜勬','鐢�);
+INSERT INTO USER_INFO VALUES('6[*]','鑻嶇嫾','鐢�)"; expected "[, ::, *, /, %, +, -, ||, ~, !~, NOT, LIKE, REGEXP, IS, IN, BETWEEN, AND, OR, ,, )"; SQL statement:
+INSERT INTO USER_INFO VALUES('5','鐜勬','鐢�);
+INSERT INTO USER_INFO VALUES('6','鑻嶇嫾','鐢�) [42001-176]
+12-22 17:09:57 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP DATABASE[*] IF EXISTS USER_INFO "; expected "TABLE, INDEX, USER, SEQUENCE, CONSTANT, TRIGGER, VIEW, ROLE, ALIAS, SCHEMA, ALL, DOMAIN, TYPE, DATATYPE, AGGREGATE"; SQL statement:
+drop database if EXISTS USER_INFO [42001-176]
+12-22 17:09:57 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "CREATE DATABASE[*] USER_INFO "; expected "OR, FORCE, VIEW, ALIAS, SEQUENCE, USER, TRIGGER, ROLE, SCHEMA, CONSTANT, DOMAIN, TYPE, DATATYPE, AGGREGATE, LINKED, MEMORY, CACHED, LOCAL, GLOBAL, TEMP, TEMPORARY, TABLE, PRIMARY, UNIQUE, HASH, SPATIAL, INDEX"; SQL statement:
+create database USER_INFO [42001-176]
+12-22 17:09:57 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "USE[*] USER_INFO "; expected "UPDATE, {"; SQL statement:
+use USER_INFO [42001-176]
+12-22 17:09:57 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO USER_INFO VALUES('1','澶ф棩濡傛潵','鐢�);
+INSERT INTO USER_INFO VALUES('2[*]','闈掗緳','鐢�)"; expected "[, ::, *, /, %, +, -, ||, ~, !~, NOT, LIKE, REGEXP, IS, IN, BETWEEN, AND, OR, ,, )"; SQL statement:
+INSERT INTO USER_INFO VALUES('1','澶ф棩濡傛潵','鐢�);
+INSERT INTO USER_INFO VALUES('2','闈掗緳','鐢�) [42001-176]
+12-22 17:09:57 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO USER_INFO VALUES('3','鐧借檸','鐢�);
+INSERT INTO USER_INFO VALUES('4[*]','鏈遍泙','濂�)"; expected "[, ::, *, /, %, +, -, ||, ~, !~, NOT, LIKE, REGEXP, IS, IN, BETWEEN, AND, OR, ,, )"; SQL statement:
+INSERT INTO USER_INFO VALUES('3','鐧借檸','鐢�);
+INSERT INTO USER_INFO VALUES('4','鏈遍泙','濂�) [42001-176]
+12-22 17:09:57 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO USER_INFO VALUES('5','鐜勬','鐢�);
+INSERT INTO USER_INFO VALUES('6[*]','鑻嶇嫾','鐢�)"; expected "[, ::, *, /, %, +, -, ||, ~, !~, NOT, LIKE, REGEXP, IS, IN, BETWEEN, AND, OR, ,, )"; SQL statement:
+INSERT INTO USER_INFO VALUES('5','鐜勬','鐢�);
+INSERT INTO USER_INFO VALUES('6','鑻嶇嫾','鐢�) [42001-176]
+12-22 17:12:24 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP DATABASE[*] IF EXISTS USER_INFO "; expected "TABLE, INDEX, USER, SEQUENCE, CONSTANT, TRIGGER, VIEW, ROLE, ALIAS, SCHEMA, ALL, DOMAIN, TYPE, DATATYPE, AGGREGATE"; SQL statement:
+drop database if EXISTS USER_INFO [42001-176]
+12-22 17:12:24 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "CREATE DATABASE[*] USER_INFO "; expected "OR, FORCE, VIEW, ALIAS, SEQUENCE, USER, TRIGGER, ROLE, SCHEMA, CONSTANT, DOMAIN, TYPE, DATATYPE, AGGREGATE, LINKED, MEMORY, CACHED, LOCAL, GLOBAL, TEMP, TEMPORARY, TABLE, PRIMARY, UNIQUE, HASH, SPATIAL, INDEX"; SQL statement:
+create database USER_INFO [42001-176]
+12-22 17:12:24 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "USE[*] USER_INFO "; expected "UPDATE, {"; SQL statement:
+use USER_INFO [42001-176]
+12-22 17:12:24 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO USER_INFO VALUES('1','澶ф棩濡傛潵','鐢�);
+INSERT INTO USER_INFO VALUES('2[*]','闈掗緳','鐢�)"; expected "[, ::, *, /, %, +, -, ||, ~, !~, NOT, LIKE, REGEXP, IS, IN, BETWEEN, AND, OR, ,, )"; SQL statement:
+INSERT INTO USER_INFO VALUES('1','澶ф棩濡傛潵','鐢�);
+INSERT INTO USER_INFO VALUES('2','闈掗緳','鐢�) [42001-176]
+12-22 17:12:24 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO USER_INFO VALUES('3','鐧借檸','鐢�);
+INSERT INTO USER_INFO VALUES('4[*]','鏈遍泙','濂�)"; expected "[, ::, *, /, %, +, -, ||, ~, !~, NOT, LIKE, REGEXP, IS, IN, BETWEEN, AND, OR, ,, )"; SQL statement:
+INSERT INTO USER_INFO VALUES('3','鐧借檸','鐢�);
+INSERT INTO USER_INFO VALUES('4','鏈遍泙','濂�) [42001-176]
+12-22 17:12:24 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO USER_INFO VALUES('5','鐜勬','鐢�);
+INSERT INTO USER_INFO VALUES('6[*]','鑻嶇嫾','鐢�)"; expected "[, ::, *, /, %, +, -, ||, ~, !~, NOT, LIKE, REGEXP, IS, IN, BETWEEN, AND, OR, ,, )"; SQL statement:
+INSERT INTO USER_INFO VALUES('5','鐜勬','鐢�);
+INSERT INTO USER_INFO VALUES('6','鑻嶇嫾','鐢�) [42001-176]
+12-22 17:27:12 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP DATABASE[*] IF EXISTS USER_INFO "; expected "TABLE, INDEX, USER, SEQUENCE, CONSTANT, TRIGGER, VIEW, ROLE, ALIAS, SCHEMA, ALL, DOMAIN, TYPE, DATATYPE, AGGREGATE"; SQL statement:
+drop database if EXISTS USER_INFO [42001-176]
+12-22 17:27:12 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "CREATE DATABASE[*] USER_INFO "; expected "OR, FORCE, VIEW, ALIAS, SEQUENCE, USER, TRIGGER, ROLE, SCHEMA, CONSTANT, DOMAIN, TYPE, DATATYPE, AGGREGATE, LINKED, MEMORY, CACHED, LOCAL, GLOBAL, TEMP, TEMPORARY, TABLE, PRIMARY, UNIQUE, HASH, SPATIAL, INDEX"; SQL statement:
+create database USER_INFO [42001-176]
+12-22 17:27:12 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "USE[*] USER_INFO "; expected "UPDATE, {"; SQL statement:
+use USER_INFO [42001-176]
+12-22 17:27:12 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO USER_INFO VALUES('1','澶ф棩濡傛潵','鐢�);
+INSERT INTO USER_INFO VALUES('2[*]','闈掗緳','鐢�)"; expected "[, ::, *, /, %, +, -, ||, ~, !~, NOT, LIKE, REGEXP, IS, IN, BETWEEN, AND, OR, ,, )"; SQL statement:
+INSERT INTO USER_INFO VALUES('1','澶ф棩濡傛潵','鐢�);
+INSERT INTO USER_INFO VALUES('2','闈掗緳','鐢�) [42001-176]
+12-22 17:27:12 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO USER_INFO VALUES('3','鐧借檸','鐢�);
+INSERT INTO USER_INFO VALUES('4[*]','鏈遍泙','濂�)"; expected "[, ::, *, /, %, +, -, ||, ~, !~, NOT, LIKE, REGEXP, IS, IN, BETWEEN, AND, OR, ,, )"; SQL statement:
+INSERT INTO USER_INFO VALUES('3','鐧借檸','鐢�);
+INSERT INTO USER_INFO VALUES('4','鏈遍泙','濂�) [42001-176]
+12-22 17:27:12 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO USER_INFO VALUES('5','鐜勬','鐢�);
+INSERT INTO USER_INFO VALUES('6[*]','鑻嶇嫾','鐢�)"; expected "[, ::, *, /, %, +, -, ||, ~, !~, NOT, LIKE, REGEXP, IS, IN, BETWEEN, AND, OR, ,, )"; SQL statement:
+INSERT INTO USER_INFO VALUES('5','鐜勬','鐢�);
+INSERT INTO USER_INFO VALUES('6','鑻嶇嫾','鐢�) [42001-176]
+12-22 17:49:59 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP DATABASE[*] IF EXISTS USER_INFO "; expected "TABLE, INDEX, USER, SEQUENCE, CONSTANT, TRIGGER, VIEW, ROLE, ALIAS, SCHEMA, ALL, DOMAIN, TYPE, DATATYPE, AGGREGATE"; SQL statement:
+drop database if EXISTS USER_INFO [42001-176]
+12-22 17:49:59 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "CREATE DATABASE[*] USER_INFO "; expected "OR, FORCE, VIEW, ALIAS, SEQUENCE, USER, TRIGGER, ROLE, SCHEMA, CONSTANT, DOMAIN, TYPE, DATATYPE, AGGREGATE, LINKED, MEMORY, CACHED, LOCAL, GLOBAL, TEMP, TEMPORARY, TABLE, PRIMARY, UNIQUE, HASH, SPATIAL, INDEX"; SQL statement:
+create database USER_INFO [42001-176]
+12-22 17:49:59 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "USE[*] USER_INFO "; expected "UPDATE, {"; SQL statement:
+use USER_INFO [42001-176]
+12-22 17:49:59 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO USER_INFO VALUES('1','澶ф棩濡傛潵','鐢�);
+INSERT INTO USER_INFO VALUES('2[*]','闈掗緳','鐢�)"; expected "[, ::, *, /, %, +, -, ||, ~, !~, NOT, LIKE, REGEXP, IS, IN, BETWEEN, AND, OR, ,, )"; SQL statement:
+INSERT INTO USER_INFO VALUES('1','澶ф棩濡傛潵','鐢�);
+INSERT INTO USER_INFO VALUES('2','闈掗緳','鐢�) [42001-176]
+12-22 17:49:59 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO USER_INFO VALUES('3','鐧借檸','鐢�);
+INSERT INTO USER_INFO VALUES('4[*]','鏈遍泙','濂�)"; expected "[, ::, *, /, %, +, -, ||, ~, !~, NOT, LIKE, REGEXP, IS, IN, BETWEEN, AND, OR, ,, )"; SQL statement:
+INSERT INTO USER_INFO VALUES('3','鐧借檸','鐢�);
+INSERT INTO USER_INFO VALUES('4','鏈遍泙','濂�) [42001-176]
+12-22 17:49:59 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO USER_INFO VALUES('5','鐜勬','鐢�);
+INSERT INTO USER_INFO VALUES('6[*]','鑻嶇嫾','鐢�)"; expected "[, ::, *, /, %, +, -, ||, ~, !~, NOT, LIKE, REGEXP, IS, IN, BETWEEN, AND, OR, ,, )"; SQL statement:
+INSERT INTO USER_INFO VALUES('5','鐜勬','鐢�);
+INSERT INTO USER_INFO VALUES('6','鑻嶇嫾','鐢�) [42001-176]
+12-22 17:50:53 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP DATABASE[*] IF EXISTS USER_INFO "; expected "TABLE, INDEX, USER, SEQUENCE, CONSTANT, TRIGGER, VIEW, ROLE, ALIAS, SCHEMA, ALL, DOMAIN, TYPE, DATATYPE, AGGREGATE"; SQL statement:
+drop database if EXISTS USER_INFO [42001-176]
+12-22 17:50:53 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "CREATE DATABASE[*] USER_INFO "; expected "OR, FORCE, VIEW, ALIAS, SEQUENCE, USER, TRIGGER, ROLE, SCHEMA, CONSTANT, DOMAIN, TYPE, DATATYPE, AGGREGATE, LINKED, MEMORY, CACHED, LOCAL, GLOBAL, TEMP, TEMPORARY, TABLE, PRIMARY, UNIQUE, HASH, SPATIAL, INDEX"; SQL statement:
+create database USER_INFO [42001-176]
+12-22 17:50:53 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "USE[*] USER_INFO "; expected "UPDATE, {"; SQL statement:
+use USER_INFO [42001-176]
+12-22 17:50:53 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO USER_INFO VALUES('1','澶ф棩濡傛潵','鐢�);
+INSERT INTO USER_INFO VALUES('2[*]','闈掗緳','鐢�)"; expected "[, ::, *, /, %, +, -, ||, ~, !~, NOT, LIKE, REGEXP, IS, IN, BETWEEN, AND, OR, ,, )"; SQL statement:
+INSERT INTO USER_INFO VALUES('1','澶ф棩濡傛潵','鐢�);
+INSERT INTO USER_INFO VALUES('2','闈掗緳','鐢�) [42001-176]
+12-22 17:50:53 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO USER_INFO VALUES('3','鐧借檸','鐢�);
+INSERT INTO USER_INFO VALUES('4[*]','鏈遍泙','濂�)"; expected "[, ::, *, /, %, +, -, ||, ~, !~, NOT, LIKE, REGEXP, IS, IN, BETWEEN, AND, OR, ,, )"; SQL statement:
+INSERT INTO USER_INFO VALUES('3','鐧借檸','鐢�);
+INSERT INTO USER_INFO VALUES('4','鏈遍泙','濂�) [42001-176]
+12-22 17:50:53 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO USER_INFO VALUES('5','鐜勬','鐢�);
+INSERT INTO USER_INFO VALUES('6[*]','鑻嶇嫾','鐢�)"; expected "[, ::, *, /, %, +, -, ||, ~, !~, NOT, LIKE, REGEXP, IS, IN, BETWEEN, AND, OR, ,, )"; SQL statement:
+INSERT INTO USER_INFO VALUES('5','鐜勬','鐢�);
+INSERT INTO USER_INFO VALUES('6','鑻嶇嫾','鐢�) [42001-176]
+12-22 17:54:53 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP DATABASE[*] IF EXISTS USER_INFO "; expected "TABLE, INDEX, USER, SEQUENCE, CONSTANT, TRIGGER, VIEW, ROLE, ALIAS, SCHEMA, ALL, DOMAIN, TYPE, DATATYPE, AGGREGATE"; SQL statement:
+drop database if EXISTS USER_INFO [42001-176]
+12-22 17:54:53 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "CREATE DATABASE[*] USER_INFO "; expected "OR, FORCE, VIEW, ALIAS, SEQUENCE, USER, TRIGGER, ROLE, SCHEMA, CONSTANT, DOMAIN, TYPE, DATATYPE, AGGREGATE, LINKED, MEMORY, CACHED, LOCAL, GLOBAL, TEMP, TEMPORARY, TABLE, PRIMARY, UNIQUE, HASH, SPATIAL, INDEX"; SQL statement:
+create database USER_INFO [42001-176]
+12-22 17:54:53 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "USE[*] USER_INFO "; expected "UPDATE, {"; SQL statement:
+use USER_INFO [42001-176]
+12-22 17:54:53 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO USER_INFO VALUES('1','澶ф棩濡傛潵','鐢�);
+INSERT INTO USER_INFO VALUES('2[*]','闈掗緳','鐢�)"; expected "[, ::, *, /, %, +, -, ||, ~, !~, NOT, LIKE, REGEXP, IS, IN, BETWEEN, AND, OR, ,, )"; SQL statement:
+INSERT INTO USER_INFO VALUES('1','澶ф棩濡傛潵','鐢�);
+INSERT INTO USER_INFO VALUES('2','闈掗緳','鐢�) [42001-176]
+12-22 17:54:53 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO USER_INFO VALUES('3','鐧借檸','鐢�);
+INSERT INTO USER_INFO VALUES('4[*]','鏈遍泙','濂�)"; expected "[, ::, *, /, %, +, -, ||, ~, !~, NOT, LIKE, REGEXP, IS, IN, BETWEEN, AND, OR, ,, )"; SQL statement:
+INSERT INTO USER_INFO VALUES('3','鐧借檸','鐢�);
+INSERT INTO USER_INFO VALUES('4','鏈遍泙','濂�) [42001-176]
+12-22 17:54:53 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO USER_INFO VALUES('5','鐜勬','鐢�);
+INSERT INTO USER_INFO VALUES('6[*]','鑻嶇嫾','鐢�)"; expected "[, ::, *, /, %, +, -, ||, ~, !~, NOT, LIKE, REGEXP, IS, IN, BETWEEN, AND, OR, ,, )"; SQL statement:
+INSERT INTO USER_INFO VALUES('5','鐜勬','鐢�);
+INSERT INTO USER_INFO VALUES('6','鑻嶇嫾','鐢�) [42001-176]
+12-22 17:57:09 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP DATABASE[*] IF EXISTS USER_INFO "; expected "TABLE, INDEX, USER, SEQUENCE, CONSTANT, TRIGGER, VIEW, ROLE, ALIAS, SCHEMA, ALL, DOMAIN, TYPE, DATATYPE, AGGREGATE"; SQL statement:
+drop database if EXISTS USER_INFO [42001-176]
+12-22 17:57:09 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "CREATE DATABASE[*] USER_INFO "; expected "OR, FORCE, VIEW, ALIAS, SEQUENCE, USER, TRIGGER, ROLE, SCHEMA, CONSTANT, DOMAIN, TYPE, DATATYPE, AGGREGATE, LINKED, MEMORY, CACHED, LOCAL, GLOBAL, TEMP, TEMPORARY, TABLE, PRIMARY, UNIQUE, HASH, SPATIAL, INDEX"; SQL statement:
+create database USER_INFO [42001-176]
+12-22 17:57:09 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "USE[*] USER_INFO "; expected "UPDATE, {"; SQL statement:
+use USER_INFO [42001-176]
+12-22 17:57:09 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO USER_INFO VALUES('1','澶ф棩濡傛潵','鐢�);
+INSERT INTO USER_INFO VALUES('2[*]','闈掗緳','鐢�)"; expected "[, ::, *, /, %, +, -, ||, ~, !~, NOT, LIKE, REGEXP, IS, IN, BETWEEN, AND, OR, ,, )"; SQL statement:
+INSERT INTO USER_INFO VALUES('1','澶ф棩濡傛潵','鐢�);
+INSERT INTO USER_INFO VALUES('2','闈掗緳','鐢�) [42001-176]
+12-22 17:57:09 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO USER_INFO VALUES('3','鐧借檸','鐢�);
+INSERT INTO USER_INFO VALUES('4[*]','鏈遍泙','濂�)"; expected "[, ::, *, /, %, +, -, ||, ~, !~, NOT, LIKE, REGEXP, IS, IN, BETWEEN, AND, OR, ,, )"; SQL statement:
+INSERT INTO USER_INFO VALUES('3','鐧借檸','鐢�);
+INSERT INTO USER_INFO VALUES('4','鏈遍泙','濂�) [42001-176]
+12-22 17:57:09 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO USER_INFO VALUES('5','鐜勬','鐢�);
+INSERT INTO USER_INFO VALUES('6[*]','鑻嶇嫾','鐢�)"; expected "[, ::, *, /, %, +, -, ||, ~, !~, NOT, LIKE, REGEXP, IS, IN, BETWEEN, AND, OR, ,, )"; SQL statement:
+INSERT INTO USER_INFO VALUES('5','鐜勬','鐢�);
+INSERT INTO USER_INFO VALUES('6','鑻嶇嫾','鐢�) [42001-176]
+12-22 18:14:59 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP DATABASE[*] IF EXISTS USER_INFO "; expected "TABLE, INDEX, USER, SEQUENCE, CONSTANT, TRIGGER, VIEW, ROLE, ALIAS, SCHEMA, ALL, DOMAIN, TYPE, DATATYPE, AGGREGATE"; SQL statement:
+drop database if EXISTS USER_INFO [42001-176]
+12-22 18:14:59 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "CREATE DATABASE[*] USER_INFO "; expected "OR, FORCE, VIEW, ALIAS, SEQUENCE, USER, TRIGGER, ROLE, SCHEMA, CONSTANT, DOMAIN, TYPE, DATATYPE, AGGREGATE, LINKED, MEMORY, CACHED, LOCAL, GLOBAL, TEMP, TEMPORARY, TABLE, PRIMARY, UNIQUE, HASH, SPATIAL, INDEX"; SQL statement:
+create database USER_INFO [42001-176]
+12-22 18:14:59 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "USE[*] USER_INFO "; expected "UPDATE, {"; SQL statement:
+use USER_INFO [42001-176]
+12-22 18:14:59 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO USER_INFO VALUES('1','澶ф棩濡傛潵','鐢�);
+INSERT INTO USER_INFO VALUES('2[*]','闈掗緳','鐢�)"; expected "[, ::, *, /, %, +, -, ||, ~, !~, NOT, LIKE, REGEXP, IS, IN, BETWEEN, AND, OR, ,, )"; SQL statement:
+INSERT INTO USER_INFO VALUES('1','澶ф棩濡傛潵','鐢�);
+INSERT INTO USER_INFO VALUES('2','闈掗緳','鐢�) [42001-176]
+12-22 18:14:59 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO USER_INFO VALUES('3','鐧借檸','鐢�);
+INSERT INTO USER_INFO VALUES('4[*]','鏈遍泙','濂�)"; expected "[, ::, *, /, %, +, -, ||, ~, !~, NOT, LIKE, REGEXP, IS, IN, BETWEEN, AND, OR, ,, )"; SQL statement:
+INSERT INTO USER_INFO VALUES('3','鐧借檸','鐢�);
+INSERT INTO USER_INFO VALUES('4','鏈遍泙','濂�) [42001-176]
+12-22 18:14:59 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO USER_INFO VALUES('5','鐜勬','鐢�);
+INSERT INTO USER_INFO VALUES('6[*]','鑻嶇嫾','鐢�)"; expected "[, ::, *, /, %, +, -, ||, ~, !~, NOT, LIKE, REGEXP, IS, IN, BETWEEN, AND, OR, ,, )"; SQL statement:
+INSERT INTO USER_INFO VALUES('5','鐜勬','鐢�);
+INSERT INTO USER_INFO VALUES('6','鑻嶇嫾','鐢�) [42001-176]
