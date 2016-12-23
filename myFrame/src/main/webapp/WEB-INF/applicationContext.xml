@@ -34,9 +34,9 @@
 	</context:component-scan>
 
 	<!-- 扫描DAO -->
- 	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
- 		<property name="basePackage" value="com.lee.demo.dao"/>
- 	</bean>
+<!--  	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer"> -->
+<!--  		<property name="basePackage" value="com.lee.demo.dao"/> -->
+<!--  	</bean> -->
  	
  	<!-- mybatis根据不同的数据库名来进行sql语句切换。具体的做法是初始化SqlSessionFactoryBean的时候，配置一个databaseIdProvider -->
 <!--  	<bean id="vendorProperties" class="org.springframework.beans.factory.config.PropertiesFactoryBean"> -->
@@ -53,7 +53,7 @@
  	<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
  		<property name="dataSource" ref="dataSource" />
 <!--  		<property name="databaseIdProvider" ref="databaseIdProvider"/> -->
- 		<property name="mapperLocations" value="classpath*:/src/com/lee/demo/mapper/*.xml" />
+ 		<property name="mapperLocations" value="classpath*:com/lee/demo/mapper/*.xml" />
  	</bean>
  	
  	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
