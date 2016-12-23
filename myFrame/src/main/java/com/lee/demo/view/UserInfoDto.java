@@ -1,18 +1,19 @@
 package com.lee.demo.view;
 
 public class UserInfoDto {
-	public String getUserName() {
-		return userName;
+	public String getName() {
+		return name;
 	}
-	public void setUserName(String userName) {
-		this.userName = userName;
+	public void setName(String name) {
+		this.name = name;
 	}
-	public String getUserId() {
-		return userId;
+	public String getId() {
+		return id;
 	}
-	public void setUserId(String userId) {
-		this.userId = userId;
+	public void setId(String id) {
+		this.id = id;
 	}
-	private String userName;
-	private String userId;
+
+	private String name;
+	private String id;
 }

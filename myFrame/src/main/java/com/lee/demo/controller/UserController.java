@@ -5,6 +5,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.apache.log4j.Logger;
 
 import com.lee.demo.service.UserInfoService;
 
@@ -13,6 +14,7 @@ import com.lee.demo.service.UserInfoService;
 public class UserController {
 	@Autowired
 	UserInfoService userInfoService;
+	private Logger logger = Logger.getLogger(UserController.class);
 	
 	@RequestMapping("/login.do")
 	public String login(){
@@ -24,8 +26,8 @@ public class UserController {
 	public String userLogin(@RequestParam  String name,@RequestParam String psd,Model model){
 		System.out.println(name);
 		System.out.println(psd);
-		
-		model.addAttribute("userName", userInfoService.getUserInfoByName(name));
+		logger.info("===============================");
+		model.addAttribute("userName", userInfoService.getUserInfoByName(name).getName());
 		model.addAttribute("password", psd);
 		return "loginIn";
 	}

@@ -10,6 +10,7 @@
       		values (#{className},#{sourceCode},now(),now())
     </insert>
     <select id="getUserInfoByName" resultMap="BaseUserMap" parameterType="java.lang.String">
-    	select id,name from USER_INFO where name=#{name,jdbcType=VARCHAR}
+    	select id,name from USER_INFO
+<!--     	 where name=#{name,jdbcType=VARCHAR} -->
     </select>
 </mapper>
