@@ -646,3 +646,30 @@ org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO USER_IN
 INSERT INTO USER_INFO VALUES('6[*]','鑻嶇嫾','鐢�)"; expected "[, ::, *, /, %, +, -, ||, ~, !~, NOT, LIKE, REGEXP, IS, IN, BETWEEN, AND, OR, ,, )"; SQL statement:
 INSERT INTO USER_INFO VALUES('5','鐜勬','鐢�);
 INSERT INTO USER_INFO VALUES('6','鑻嶇嫾','鐢�) [42001-176]
+12-23 16:34:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP DATABASE[*] IF EXISTS USERDB "; expected "TABLE, INDEX, USER, SEQUENCE, CONSTANT, TRIGGER, VIEW, ROLE, ALIAS, SCHEMA, ALL, DOMAIN, TYPE, DATATYPE, AGGREGATE"; SQL statement:
+drop database if EXISTS userDB [42001-176]
+12-23 16:34:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "CREATE DATABASE[*] USERDB "; expected "OR, FORCE, VIEW, ALIAS, SEQUENCE, USER, TRIGGER, ROLE, SCHEMA, CONSTANT, DOMAIN, TYPE, DATATYPE, AGGREGATE, LINKED, MEMORY, CACHED, LOCAL, GLOBAL, TEMP, TEMPORARY, TABLE, PRIMARY, UNIQUE, HASH, SPATIAL, INDEX"; SQL statement:
+create database userDB [42001-176]
+12-23 16:34:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "USE[*] USERDB "; expected "UPDATE, {"; SQL statement:
+use userDB [42001-176]
+12-23 16:34:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO USER_INFO VALUES('1','likun',[*]'鐢�);"; SQL statement:
+INSERT INTO USER_INFO VALUES('1','likun','鐢�); [42000-176]
+12-23 16:39:23 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DROP DATABASE[*] IF EXISTS USERDB "; expected "TABLE, INDEX, USER, SEQUENCE, CONSTANT, TRIGGER, VIEW, ROLE, ALIAS, SCHEMA, ALL, DOMAIN, TYPE, DATATYPE, AGGREGATE"; SQL statement:
+drop database if EXISTS userDB [42001-176]
+12-23 16:39:23 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "CREATE DATABASE[*] USERDB "; expected "OR, FORCE, VIEW, ALIAS, SEQUENCE, USER, TRIGGER, ROLE, SCHEMA, CONSTANT, DOMAIN, TYPE, DATATYPE, AGGREGATE, LINKED, MEMORY, CACHED, LOCAL, GLOBAL, TEMP, TEMPORARY, TABLE, PRIMARY, UNIQUE, HASH, SPATIAL, INDEX"; SQL statement:
+create database userDB [42001-176]
+12-23 16:39:23 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "USE[*] USERDB "; expected "UPDATE, {"; SQL statement:
+use userDB [42001-176]
+12-23 16:39:23 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO USER_INFO VALUES('1','likun',[*]'鐢�);"; SQL statement:
+INSERT INTO USER_INFO VALUES('1','likun','鐢�); [42000-176]
+12-23 16:43:48 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO USER_INFO VALUES('1','likun',[*]'鐢�);"; SQL statement:
+INSERT INTO USER_INFO VALUES('1','likun','鐢�); [42000-176]

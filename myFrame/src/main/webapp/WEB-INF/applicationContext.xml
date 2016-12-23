@@ -82,10 +82,12 @@
  			<property name="username" value="sa"/>
  			<property name="password" value=""/>
         </bean>
-        <!--Refer to https://github.com/springside/springside4/wiki/H2-Database -->
-<!--         <jdbc:initialize-database data-source="dataSource" ignore-failures="ALL"> -->
-<!--             <jdbc:script location="classpath:sql/h2/schema.sql" /> -->
+        
+        <!-- 初始化数据库（需要先手动创建好数据库） enabled=true/false 是否启用初始化 -->
+<!--         <jdbc:initialize-database data-source="dataSource" ignore-failures="ALL" enable="true"> -->
+        <jdbc:initialize-database data-source="dataSource">
+            <jdbc:script location="classpath:sql/h2/schema.sql" />
 <!--             <jdbc:script location="classpath:data/h2/import-data.sql" encoding="UTF-8"/> -->
-<!--         </jdbc:initialize-database> -->
+        </jdbc:initialize-database>
     </beans>
 </beans>

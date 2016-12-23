@@ -1,5 +1,9 @@
-1、研究下怎么在项目运行的时候，初始化整个项目数据库
+1、研究下怎么在项目启动时，初始化整个项目数据库
 
 2、创建springSecurity、shiro分支，分别用于研究spring Security 、shiro
 
 3、cas单点登录
+
+4、启用线程池
+
+5、mysql数据库
